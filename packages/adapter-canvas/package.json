@@ -1,0 +1,22 @@
+{
+	"name": "@rtjs/adapter-canvas",
+	"version": "1.0.0",
+	"main": "dist/index.js",
+	"type": "module",
+	"files": [
+		"dist/**/*"
+	],
+	"scripts": {
+		"build": "tsc",
+		"dev": "tsc --watch"
+	},
+	"license": "MIT",
+	"devDependencies": {
+		"typescript": "^4.7.4",
+		"@rtjs/tsconfig": "*"
+	},
+	"dependencies": {
+		"@rtjs/common": "*"
+	}
+}
+

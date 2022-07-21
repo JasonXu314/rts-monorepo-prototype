@@ -1,0 +1,8 @@
+{
+	"extends": "@rtjs/tsconfig/base.json",
+	"include": ["lib"],
+	"exclude": ["dist", "build", "node_modules"],
+	"compilerOptions": {
+		"outDir": "dist"
+	}
+}
